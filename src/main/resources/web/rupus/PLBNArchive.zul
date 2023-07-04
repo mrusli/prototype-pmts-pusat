@@ -1,0 +1,58 @@
+<div xmlns:n="native" id="plbnArchivePanel" apply="${plbnArchiveController}">
+<n:main class="plbnArchive">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Data PLBN</n:h1>	
+	</div>
+	<div class="param">
+		<div class="param-inline">
+			<n:h3>PLBN:</n:h3>
+			<combobox value="Entikong"></combobox>
+		</div>
+		<div class="param-inline">
+			<n:h3>Tgl-Dari:</n:h3>
+			<datebox></datebox>
+			<n:h3>s/d</n:h3>
+			<datebox></datebox>
+		</div>
+	</div>
+	<div class="list">
+		<listbox>
+			<listhead>
+				<listheader>ID</listheader>
+				<listheader>Tgl-Jam</listheader>
+				<listheader>Jumlah-Keluar</listheader>
+				<listheader>Jumlah-Masuk</listheader>
+				<listheader></listheader>
+				<listheader></listheader>
+			</listhead>
+			<listitem>
+				<listcell>19832837224</listcell>
+				<listcell>18/06/2023 09:33</listcell>
+				<listcell>15</listcell>
+				<listcell>7</listcell>
+				<listcell><image src="/zkau/web/img/cctvmasuk01.png"></image></listcell>
+				<listcell><image src="/zkau/web/img/cctvkeluar01.png"></image></listcell>
+			</listitem>
+			<listitem>
+				<listcell>19832837226</listcell>
+				<listcell>18/06/2023 10:43</listcell>
+				<listcell>12</listcell>
+				<listcell>8</listcell>
+				<listcell><image src="/zkau/web/img/cctvmasuk01.png"></image></listcell>
+				<listcell><image src="/zkau/web/img/cctvkeluar01.png"></image></listcell>
+			</listitem>
+			<listitem>
+				<listcell>19832837228</listcell>
+				<listcell>18/06/2023 11:23</listcell>
+				<listcell>1</listcell>
+				<listcell>3</listcell>
+				<listcell><image src="/zkau/web/img/cctvmasuk01.png"></image></listcell>
+				<listcell><image src="/zkau/web/img/cctvkeluar01.png"></image></listcell>
+			</listitem>			
+		</listbox>
+	</div>
+</n:main>
+</div>

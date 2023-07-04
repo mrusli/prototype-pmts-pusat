@@ -1,0 +1,5 @@
+<div xmlns:n="native" id="dashboardPanel" apply="${dashboardController}">
+<n:main class="pendaftaran">
+	<n:h1>Dashboard Integrasi Pemantau CCTV dan Data</n:h1>
+</n:main>
+</div>

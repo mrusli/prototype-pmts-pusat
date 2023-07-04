@@ -1,0 +1,172 @@
+<div xmlns:n="native" id="plbnDashboardPanel" apply="${plbnDashboardController}">
+<n:main class="plbnMainDashboard">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Dashboard Utama PLBN</n:h1>	
+	</div>
+	<div class="perlintasan">
+		<div>
+			<n:h2>Identitas Perlintasan</n:h2>
+			<div class="update">
+				<n:h4>Update: 3 Menit Lalu</n:h4>			
+			</div>
+			<div class="identity">
+				<div>
+					<image src="/zkau/web/img/smplphoto1.png" width="138px" height="174px"></image>
+				</div>
+				<div class="particulars">
+					<div>
+						Nama:					
+					</div>
+					<div>
+						YUSRI DODI
+					</div>
+					<div>
+						Dari:					
+					</div>
+					<div>
+						KALIMANTAN BARAT, KAB.SANGGAU, KAPUAS
+					</div>
+					<div>
+						NIK
+					</div>
+					<div>
+						1301061511830004
+					</div>
+					<div>
+						Tpt/Lhr:
+					</div>
+					<div>
+						PADANG, 15/11/1983
+					</div>
+					<div>
+						Alamat
+					</div>
+					<div>
+						JL MUSTIKA 2 NO 12 BLOK DA.10/12
+					</div>
+				</div>				
+			</div>
+		</div>
+		<div>
+			<n:h2>Informasi PLBN</n:h2>
+			<div class="update">
+				<n:h4>Status: On-Line</n:h4>			
+			</div>			
+			<div class="identity">
+				<div>
+					<image src="/zkau/web/img/plbnuser01.png" width="138px" height="173px"></image>
+				</div>
+				<div class="particulars">
+					<div>
+						Nama PLBN:					
+					</div>
+					<div>
+						PLBN Entikong
+					</div>
+					<div>
+						Letak:
+					</div>
+					<div>
+						Sanggau, Kalimantan Barat
+					</div>
+					<div>
+						User:					
+					</div>
+					<div>
+						Pengawasan01 (User)
+					</div>
+					<div>
+						Login Sejak:
+					</div>
+					<div>
+						07:35:33 WIB
+					</div>
+					<div>
+					
+					</div>
+					<div>
+					
+					</div>
+				</div>			
+			</div>
+		</div>
+		<div>
+			<n:h2>CCTV Feed</n:h2>
+			<div class="update">
+				<n:h4>Status: Live</n:h4>			
+			</div>
+			<div class="cctv">
+				<div>
+					<image src="/zkau/web/img/plbncctv01.png" width="230px" height="172px"></image>
+				</div>
+				<div class="cctv-info">
+					<div class="resolution">
+						<div>
+							1280 × 960						
+						</div>
+						<div style="color: gray;">
+							RESOLUTION						
+						</div>
+					</div>
+					<div class="frame">
+						<div>
+							25
+						</div>
+						<div style="color: gray;">
+							FPS						
+						</div>
+					</div>					
+				</div>			
+			</div>
+		</div>	
+	</div>	
+	<div class="statistics">
+		<div>
+			<div class="exit">
+				<n:h2>KELUAR</n:h2>
+				<n:small>Jumlah Rata-Rata Keluar Per-Bulan</n:small>
+				<n:h1>23</n:h1>
+				<div class="classification">
+					<div>
+						<n:h3>WNI</n:h3>
+						<n:h1>16</n:h1>					
+					</div>				
+					<div>
+						<n:h4>NON-WNI</n:h4>
+						<n:h1>7</n:h1>										
+					</div>				
+					<div>
+						<n:h4>NON-STATUS</n:h4>
+						<n:h1>0</n:h1>										
+					</div>				
+				</div>			
+			</div>
+			<div class="entry">
+				<n:h2>MASUK</n:h2>
+				<n:small>Jumlah Rata-Rata Masuk Per-Bulan</n:small>
+				<n:h1>38</n:h1>			
+				<div class="classification">
+					<div>
+						<n:h3>WNI</n:h3>
+						<n:h1>26</n:h1>					
+					</div>				
+					<div>
+						<n:h4>NON-WNI</n:h4>
+						<n:h1>12</n:h1>										
+					</div>				
+					<div>
+						<n:h4>NON-STATUS</n:h4>
+						<n:h1>0</n:h1>										
+					</div>				
+				</div>
+			</div>
+		</div>
+		<div>
+			<n:h2>2FR</n:h2>
+		</div>
+	</div>
+</n:main>
+</div>

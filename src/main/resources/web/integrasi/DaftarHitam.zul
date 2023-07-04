@@ -1,0 +1,34 @@
+<div xmlns:n="native" id="daftarHitamPanel" apply="${daftarHitamController}">
+<n:main class="daftarHitam">
+	<n:h1>Daftar Hitam dari PLBN</n:h1>
+	<div style="padding-top: 10px;">
+		<div style="display: flex; gap: 10px; align-items: center;">
+			<n:h2>PLBN:</n:h2>
+			<combobox id="plbnCombobox" value="ENTIKONG" width="200px"></combobox>
+		</div>		
+	</div>
+	<div class="twoColumns">
+		<div style="padding-top: 10px;">
+			<listbox id="masukListbox" height="360px" mold="paging" pageSize="2">
+				<listhead>
+					<listheader label="Tgl-Jam" width="120px"></listheader>
+					<listheader label="Photo" width="95px" ></listheader>
+					<listheader label="Nama" width="120px"></listheader>
+					<listheader label="NIK" width="140px"></listheader>
+					<listheader label="Penjelasan" width="220px"></listheader>
+				</listhead>
+				<listitem style="vertical-align: top;">
+					<listcell>03/02/2023 - 13:10</listcell>
+					<listcell><image src="/zkau/web/img/smplphoto1.png" width="68px" height="87px"></image></listcell>
+					<listcell>SITI NURUL KOMARIYAH</listcell>
+					<listcell>3216056507770008</listcell>
+					<listcell>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta orci sed rhoncus pulvinar. Cras a est neque. In condimentum urna non enim maximus, id sodales quam lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus</listcell>
+				</listitem>
+			</listbox>		
+		</div>	
+		<div class="cctvFootage">
+			<image src="/zkau/web/img/cctv-footage-blank.png" width="495px" height="385px"></image>			
+		</div>		
+	</div>
+</n:main>
+</div>

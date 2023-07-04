@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- basis -->
+
+	<bean id="basisController" class="mil.pusdalops.webui.common.GFCBaseController" abstract="true" scope="prototype">
+	
+	</bean>
+
+	<!-- main -->
+
+	<bean id="mainWindowController" class="mil.pusdalops.webui.window.MainWindowController" scope="prototype" parent="basisController">
+
+	</bean>
+	
+	<bean id="dashboardController" class="mil.pusdalops.webui.window.DashboardController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pencatatanController" class="mil.pusdalops.webui.window.PencatatanController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="daftarHitamController" class="mil.pusdalops.webui.window.DaftarHitamController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pengawasanController" class="mil.pusdalops.webui.window.PengawasanController" scope="prototype" parent="basisController">
+	
+	</bean>
+
+	<bean id="pengawasan02Controller" class="mil.pusdalops.webui.window.Pengawasan02Controller" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="eventAlarmController" class="mil.pusdalops.webui.window.EventAlarmController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="jumlahOrangController" class="mil.pusdalops.webui.window.JumlahOrangController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="jumlahOrang02Controller" class="mil.pusdalops.webui.window.JumlahOrang02Controller" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="producerController" class="mil.pusdalops.webui.window.ProducerController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<!-- Main Rupus -->
+	
+	<bean id="mainRupusWindowController" class="mil.pusdalops.webui.window.rupus.MainWindowController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="rupusMainDashboardController" class="mil.pusdalops.webui.window.rupus.MainDashboardController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="plbnDashboardController" class="mil.pusdalops.webui.window.rupus.PlbnDashboardController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="plbnOperasionalDashboardController" class="mil.pusdalops.webui.window.rupus.PlbnOperasionalDashboardController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="plbnArchiveController" class="mil.pusdalops.webui.window.rupus.PlbnArchiveController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="plbnCctvController" class="mil.pusdalops.webui.window.rupus.PlbnCctvController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pusatDashboardController" class="mil.pusdalops.webui.window.pusat.PusatDashboardController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pusatOperasionalController" class="mil.pusdalops.webui.window.pusat.PusatOperasionalController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pusatCctvController" class="mil.pusdalops.webui.window.pusat.PusatCctvController" scope="prototype" parent="basisController">
+	
+	</bean>
+	
+	<bean id="pusatMessagingController" class="mil.pusdalops.webui.window.pusat.PusatMessagingController" scope="prototype" parent="basisController">
+	
+	</bean>	
+</beans>

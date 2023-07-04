@@ -1,0 +1,95 @@
+<div xmlns:n="native" id="producerPanel" apply="${producerController}">
+<n:main class="producer">
+	<n:h1>Check Raw Data PUSDALOPS</n:h1>
+	<div style="padding-top: 10px;" visible="false">
+		<div style="display: flex; gap: 10px; align-items: center;">
+			<n:h2>PLBN:</n:h2>
+			<combobox id="plbnCombobox" value="ENTIKONG" width="200px"></combobox>
+		</div>		
+	</div>
+	<div class="replikasi">
+		<div class="listPlbn">
+			<div class="middle">
+				<n:span class="material-icons-sharp">fact_check</n:span>
+				<n:h3>BlackList/WhiteList</n:h3>
+			</div>
+		</div>
+		<div class="eventListPlbn">
+			<div class="middle">
+				<n:span class="material-icons-sharp">list_alt</n:span>
+				<n:h3>Jumlah Keluar/Masuk</n:h3>
+			</div>
+		</div>
+		<div class="eventCrowdPlbn">
+			<div class="middle">
+				<n:span class="material-icons-sharp">recent_actors</n:span>
+				<n:h3>Jumlah Orang di Area</n:h3>
+			</div>
+		</div>
+		<div class="reportPlbn">
+			<div class="middle">
+				<n:span class="material-icons-sharp">playlist_play</n:span>
+				<n:h3>Laporan</n:h3>
+			</div>
+		</div>
+		<div class="eventCctvPlbn">
+			<div class="middle">
+				<n:span class="material-icons-sharp">dvr</n:span>
+				<n:h3>CCTV Event</n:h3>
+			</div>
+		</div>
+	</div>
+	<div style="padding-top: 10px;">
+		<listbox>
+			<listhead>
+				<listheader label="id"></listheader>
+				<listheader label="version"></listheader>
+				<listheader label="created_at"></listheader>
+				<listheader label="updated_at"></listheader>
+				<listheader label="producer_id"></listheader>
+				<listheader label="report"></listheader>
+				<listheader label="origin"></listheader>
+				<listheader label="origin_name"></listheader>
+				<listheader label="origin_location"></listheader>
+				<listheader label="report_name"></listheader>
+			</listhead>
+			<listitem>
+				<listcell>6268</listcell>
+				<listcell>1</listcell>
+				<listcell>2022-09-02 07:47:38</listcell>
+				<listcell>2022-09-02 07:47:38</listcell>
+				<listcell>66281220092274738</listcell>
+				<listcell>area_list_channel</listcell>
+				<listcell>PUSDALOPS</listcell>
+				<listcell>PUSDALOPS TNI</listcell>
+				<listcell>Cilangkap</listcell>
+				<listcell>/download/pusat09_3847</listcell>
+			</listitem>
+			<listitem>
+				<listcell>4324</listcell>
+				<listcell>1</listcell>
+				<listcell>2022-09-02 07:49:42</listcell>
+				<listcell>2022-09-02 07:49:42</listcell>
+				<listcell>66281220092274942</listcell>
+				<listcell>area_list_channel</listcell>
+				<listcell>PUSDALOPS</listcell>
+				<listcell>PUSDALOPS TNI</listcell>
+				<listcell>Cilangkap</listcell>
+				<listcell>/download/pusat07_4942</listcell>
+			</listitem>
+			<listitem>
+				<listcell>4325</listcell>
+				<listcell>1</listcell>
+				<listcell>2022-09-02 07:51:03</listcell>
+				<listcell>2022-09-02 07:51:03</listcell>
+				<listcell>66281220092075103</listcell>
+				<listcell>area_list_channel</listcell>
+				<listcell>PUSDALOPS</listcell>
+				<listcell>PUSDALOPS TNI</listcell>
+				<listcell>Cilangkap</listcell>
+				<listcell>/download/pusat07_5103</listcell>
+			</listitem>					
+		</listbox>
+	</div>
+</n:main>
+</div>

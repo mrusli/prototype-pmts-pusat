@@ -1,0 +1,162 @@
+<div xmlns:n="native" id="pusatMessagingPanel" apply="${pusatMessagingController}">
+<n:main class="pusatMessaging">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>PUSAT Pemantauan Pesan Singkat</n:h1>	
+	</div>
+	<div class="insight">
+		<div>
+			<n:h2>Channel dan Cluster</n:h2>
+			<div class="cluster">
+				<n:h3>Clusters:</n:h3>
+				<combobox id="clusterCombobox" width="120px"></combobox>
+				<button id="newClusterButton" label="New..."></button>			
+			</div>
+			<div style="margin-top: 10px;">
+				<listbox>
+					<listhead>
+						<listheader>Channel</listheader>
+						<listheader>Messages</listheader>
+						<listheader>Block/Un-Block</listheader>
+					</listhead>
+					<listitem>
+						<listcell>DEFAULT</listcell>
+						<listcell>13</listcell>
+						<listcell>
+							<n:span class="material-icons-sharp">report</n:span>						
+						</listcell>
+					</listitem>
+					<listitem>
+						<listcell>PROTECTED</listcell>
+						<listcell>3</listcell>
+						<listcell>
+							<n:span class="material-icons-sharp">report</n:span>						
+						</listcell>
+					</listitem>
+				</listbox>
+				<div class="center-item">
+					<button id="newChannelButton" label="Create Channel"></button>							
+				</div>
+			</div>
+		</div>
+		<div>
+			<n:h2>User</n:h2>
+			<div class="cluster">
+				<n:h3>Clusters:</n:h3>
+				<combobox id="clusterUserCombobox" width="120px"></combobox>			
+			</div>
+			<div style="margin-top: 10px;">
+				<listbox>
+					<listhead>
+						<listheader>User</listheader>
+						<listheader>Messages</listheader>
+					</listhead>
+					<listitem>
+						<listcell>PLBN-User</listcell>
+						<listcell>5</listcell>
+					</listitem>
+					<listitem>
+						<listcell>PLBN-Pimpinan</listcell>
+						<listcell>9</listcell>
+					</listitem>				
+				</listbox>
+				<div class="center-item">
+					<button id="newUserButton" label="Create User"></button>							
+				</div>							
+			</div>			
+		</div>
+		<div>
+			<n:h2>Pesan Singkat</n:h2>
+			<div class="cluster">
+				<n:h3>Clusters:</n:h3>
+				<combobox id="clusterMessageCombobox" width="120px"></combobox>			
+			</div>
+			<div style="margin-top: 10px;">
+				<listbox>
+					<listhead>
+						<listheader>Channel</listheader>
+						<listheader>User</listheader>
+						<listheader>Messages</listheader>
+					</listhead>
+					<listitem>
+						<listcell>DEFAULT</listcell>
+						<listcell>PLBN-User</listcell>
+						<listcell>Kejadian unjuk rasa di depan Kantor Disnaker Kel.Tengah</listcell>
+					</listitem>
+					<listitem>
+						<listcell>DEFAULT</listcell>
+						<listcell>PLBN-Pimpinan</listcell>
+						<listcell>Perintah nota khusus Dinas Pengawasan Kel.Barat</listcell>
+					</listitem>				
+				</listbox>
+				<div class="center-item">
+					<button id="newMessageButton" label="Create Message"></button>							
+				</div>							
+			</div>						
+		</div>
+	</div>
+	<div class="monitoring">
+		<div>
+			<n:h2>Transmit/Receive</n:h2>
+			<div style="margin-top: 10px;">
+				<listbox>
+					<listhead>
+						<listheader>Date/Time</listheader>
+						<listheader>Transmit</listheader>
+						<listheader>Received By</listheader>
+						<listheader>Message Title</listheader>
+					</listhead>
+					<listitem>
+						<listcell>16/06/2023 - 10:33:25</listcell>
+						<listcell>Entikong/DEFAULT</listcell>
+						<listcell>Pusat/DEFAULT 16/06/2023 - 10:36:22</listcell>
+						<listcell>KEJADIAN UNJUK RASA</listcell>
+					</listitem>
+					<listitem>
+						<listcell>16/06/2023 - 10:33:25</listcell>
+						<listcell>Entikong/DEFAULT</listcell>
+						<listcell>Pusat/DEFAULT 16/06/2023 - 10:36:22</listcell>
+						<listcell>KEJADIAN UNJUK RASA</listcell>
+					</listitem>
+					<listitem>
+						<listcell>16/06/2023 - 10:33:25</listcell>
+						<listcell>Entikong/DEFAULT</listcell>
+						<listcell>Pusat/DEFAULT 16/06/2023 - 10:36:22</listcell>
+						<listcell>KEJADIAN UNJUK RASA</listcell>
+					</listitem>										
+				</listbox>
+			</div>
+		</div>
+		<div>
+			<n:h2>Special Topics</n:h2>
+			<div style="margin-top: 10px;">
+				<listbox>
+					<listhead>
+						<listheader>Channel</listheader>
+						<listheader>Topic</listheader>
+						<listheader>Date/Time</listheader>
+						<listheader>Message Title</listheader>
+						<listheader>Message Content</listheader>
+					</listhead>
+					<listitem>
+						<listcell>PUSAT</listcell>
+						<listcell>Panglima TNI</listcell>
+						<listcell>16/06/2023 13:24:22</listcell>
+						<listcell>Terima Paparan Kepala Pusat Keuangan TNI</listcell>
+						<listcell>Menerima paparan Kepala Pusat Keuangan TNI Marsekal Muda...</listcell>
+					</listitem>
+					<listitem>
+						<listcell>PUSAT</listcell>
+						<listcell>Tugas</listcell>
+						<listcell>17/06/2023 12:14:12</listcell>
+						<listcell>Prajurit Yonif 3 Marinir Berangkat</listcell>
+						<listcell>Satgas Pam Pulau Terluar (Puter) XXVII TA. 2023 melaksanakan...</listcell>
+					</listitem>				
+				</listbox>
+			</div>			
+		</div>
+	</div>
+</n:main>
+</div>

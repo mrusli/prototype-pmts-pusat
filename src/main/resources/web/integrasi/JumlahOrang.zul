@@ -1,0 +1,48 @@
+<div xmlns:n="native" id="jumlahOrangPanel" apply="${jumlahOrangController}">
+<n:main class="jumlahOrang">
+	<n:h1>Laporan Jumlah Orang (di Area Tertentu) dari PLBN</n:h1>
+	<div style="padding-top: 10px;">
+		<div style="display: flex; gap: 10px; align-items: center;">
+			<n:h2>PLBN:</n:h2>
+			<combobox id="plbnCombobox" value="ENTIKONG" width="200px"></combobox>
+		</div>		
+	</div>
+	<div style="padding-top: 10px;">
+		<listbox id="jumlahOrangListbox" height="240px" mold="paging" pageSize="10">
+			<listhead>
+				<listheader label="Tgl.Jam" width="190px"></listheader>
+				<listheader label="Area" width="160px"></listheader>
+				<listheader label="Jumlah-Orang" width="100px"></listheader>
+			</listhead>
+			<listitem>
+				<listcell>01/12/2023 - 08:10 WIB</listcell>
+				<listcell>Lobby PLBN</listcell>
+				<listcell>5</listcell>
+			</listitem>
+			<listitem>
+				<listcell>01/12/2023 - 09:09 WIB</listcell>
+				<listcell>Lobby PLBN</listcell>
+				<listcell>4</listcell>
+			</listitem>
+			<listitem>
+				<listcell>01/12/2023 - 10:11 WIB</listcell>
+				<listcell>Lobby PLBN</listcell>
+				<listcell>6</listcell>
+			</listitem>
+			<listitem>
+				<listcell>01/12/2023 - 11:10 WIB</listcell>
+				<listcell>Lobby PLBN</listcell>
+				<listcell>5</listcell>
+			</listitem>
+			<listitem>
+				<listcell>01/12/2023 - 08:10 WIB</listcell>
+				<listcell>Lobby PLBN</listcell>
+				<listcell>5</listcell>
+			</listitem>
+		</listbox>
+	</div>
+	<div style="padding-top: 10px;">
+		<image src="/zkau/web/img/jumlahorg.png" width="579px" height="199px"></image>
+	</div>
+</n:main>
+</div>

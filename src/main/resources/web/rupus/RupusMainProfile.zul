@@ -1,0 +1,98 @@
+<div class="right" xmlns:n="native" id="provileMainPanel" apply="${profileMainControl}">
+	<n:h1>Profile</n:h1>
+    <div class="top">
+        <div class="theme-toggler">
+            <n:span class="material-icons-sharp active">light_mode</n:span>
+            <n:span class="material-icons-sharp">dark_mode</n:span>
+        </div>
+        <div class="profile">
+            <div class="info">
+                <n:p>Login:<n:b id="userLabel">PUSAT</n:b></n:p>
+                <n:small id="userRoleLabel" class="text-muted">User</n:small>
+            </div>
+            <div class="profile-photo">
+                <n:img src="/zkau/web/img/logo1.png"></n:img>
+            </div>
+        </div>        
+    </div>
+    <div class="recent-updates">
+         <n:h2>Recent Updates</n:h2>
+         <div class="updates">
+             <div class="update">
+                 <div class="profile-photo">
+                     <n:img src="/zkau/web/img/logo1.png"></n:img>
+                 </div>
+                 <div class="message">
+                     <n:p><n:b>User-SWI-01</n:b> received order no XXXXXXXX of SPCC-SD 0.5 x 1219 x coil.</n:p>
+                     <n:small class="text-muted">2 Minutes Ago</n:small>
+                 </div>
+             </div>
+             <div class="update">
+                 <div class="profile-photo">
+                     <n:img src="/zkau/web/img/logo1.png"></n:img>
+                 </div>
+                 <div class="message">
+                     <n:p><n:b>User-SWI-02</n:b> received order no XXXXXXXX of SPCC-SD 0.5 x 1219 x coil.</n:p>
+                     <n:small class="text-muted">2 Minutes Ago</n:small>
+                 </div>
+             </div>
+             <div class="update">
+                 <div class="profile-photo">
+                     <n:img src="/zkau/web/img/logo1.png"></n:img>
+                 </div>
+                 <div class="message">
+                     <n:p><n:b>User-SWI-03</n:b> received order no XXXXXXXX of SPCC-SD 0.5 x 1219 x coil.</n:p>
+                     <n:small class="text-muted">2 Minutes Ago</n:small>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <div class="sales-analytics">
+        <n:h2>Sales Analytics</n:h2>
+        <div class="item online">
+			<div class="icon">
+				<n:span class="material-icons-sharp">shopping_cart</n:span>
+			</div>
+			<div class="right">
+				<div class="info">
+					<n:h3>CASH ORDERS</n:h3>
+					<n:small class="text-muted">Last 24 Hours</n:small>
+				</div>
+				<n:h5 class="success">+00%</n:h5>
+				<n:h3>9999</n:h3>
+			</div>
+        </div>
+        <div class="item offline">
+			<div class="icon">
+                 <n:span class="material-icons-sharp">local_mall</n:span>
+			</div>
+			<div class="right">
+                 <div class="info">
+					<n:h3>GIRO ORDERS</n:h3>
+					<n:small class="text-muted">Last 24 Hours</n:small>
+                 </div>
+                 <n:h5 class="danger">+00%</n:h5>
+                 <n:h3>9999</n:h3>
+			</div>
+        </div>
+        <div class="item customers">
+			<div class="icon">
+				<n:span class="material-icons-sharp">person</n:span>
+			</div>
+			<div class="right">
+				<div class="info">
+					<n:h3>NEW CUSTOMERS</n:h3>
+					<n:small class="text-muted">Last 24 Hours</n:small>
+				</div>
+				<n:h5 class="success">+00%</n:h5>
+				<n:h3>999</n:h3>
+			</div>
+        </div>
+        <div class="item add-product">
+             <div>
+				<n:span class="material-icons-sharp">add</n:span>
+				<n:h3>New Order</n:h3>
+             </div>
+		</div>
+	</div>         
+</div>

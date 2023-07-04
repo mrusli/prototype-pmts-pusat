@@ -1,0 +1,27 @@
+<div xmlns:n="native" id="rupusMainDashboardPanel" apply="${rupusMainDashboardController}">
+<n:main class="rupusMainDashboard">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Dashboard Utama Rupus</n:h1>	
+	</div>
+	<div class="time">
+		<div>
+			<n:h2>07:28:45</n:h2>
+			<n:h3>WIB</n:h3>
+			<image src="/zkau/web/img/cuaca-wib.png"></image>
+		</div>
+		<div>
+			<n:h2>08:28:45</n:h2>
+			<n:h3>WITA</n:h3>
+			<image src="/zkau/web/img/cuaca-wita.png"></image>
+		</div>
+		<div>
+			<n:h2>09:28:45</n:h2>
+			<n:h3>WIT</n:h3>
+			<image src="/zkau/web/img/cuaca-wit.png"></image>
+		</div>	
+	</div>
+</n:main>
+</div>

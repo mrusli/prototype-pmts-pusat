@@ -1,0 +1,76 @@
+<div xmlns:n="native" id="plbnOperasionalDashboardPanel" apply="${plbnOperasionalDashboardController}">
+<n:main class="plbnOperasionalDashboard">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Operasional PLBN</n:h1>	
+	</div>
+	<div class="activity">
+		<div>
+			<n:h2>PLBN Entikong</n:h2>
+			<image src="/zkau/web/img/plbn-entikong.png"></image>
+			<image src="/zkau/web/img/cctvmasuk01.png"></image>
+			<image src="/zkau/web/img/cctvkeluar01.png"></image>			
+			<div class="passing">
+				<n:h2>KELUAR</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>26</n:h1>			
+			</div>
+			<div class="passing">
+				<n:h2>MASUK</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>15</n:h1>			
+			</div>			
+		</div>
+		<div>
+			<n:h2>PLBN Aruk</n:h2>		
+			<image src="/zkau/web/img/plbn-aruk.png"></image>
+			<image src="/zkau/web/img/cctvmasuk01.png"></image>
+			<image src="/zkau/web/img/cctvkeluar01.png"></image>			
+			<div class="passing">
+				<n:h2>KELUAR</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>34</n:h1>			
+			</div>
+			<div class="passing">
+				<n:h2>MASUK</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>9</n:h1>			
+			</div>
+		</div>
+		<div>
+			<n:h2>PLBN Nanga Badau</n:h2>		
+			<image src="/zkau/web/img/plbn-badau.png"></image>
+			<image src="/zkau/web/img/cctvmasuk01.png"></image>
+			<image src="/zkau/web/img/cctvkeluar01.png"></image>
+			<div class="passing">
+				<n:h2>KELUAR</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>8</n:h1>			
+			</div>
+			<div class="passing">
+				<n:h2>MASUK</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>6</n:h1>			
+			</div>		
+		</div>
+		<div>
+			<n:h2>PLBN Motaain</n:h2>		
+			<image src="/zkau/web/img/plbn-motaain.png"></image>
+			<image src="/zkau/web/img/cctvmasuk01.png"></image>
+			<image src="/zkau/web/img/cctvkeluar01.png"></image>
+			<div class="passing">
+				<n:h2>KELUAR</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>18</n:h1>			
+			</div>
+			<div class="passing">
+				<n:h2>MASUK</n:h2>
+				<n:small>Jumlah Hari Ini (17/06/2023)</n:small>
+				<n:h1>9</n:h1>			
+			</div>
+		</div>
+	</div>
+</n:main>
+</div>

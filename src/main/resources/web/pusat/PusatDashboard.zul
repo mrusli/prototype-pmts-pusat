@@ -1,0 +1,42 @@
+<div xmlns:n="native" id="pusatDashboardPanel" apply="${pusatDashboardController}">
+<n:main class="pusatDashboard">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Dashboard Utama PUSAT</n:h1>	
+	</div>
+	<div class="entry">
+		<div class="cam">
+			<image src="/zkau/web/img/pusat-cctv-masuk.png"></image>		
+			<n:h3>Area: Pintu Masuk Sektor B1</n:h3>
+			<n:h3>Status: Live</n:h3>
+		</div>
+		<div class="ident">
+			<div class="photo">
+				<image src="/zkau/web/img/pusat-cctv-masuk-ident.png"></image>			
+			</div>
+			<div class="particulars">
+				<div>
+					Nama:					
+				</div>
+				<div>
+					MYR.YUSRI DODI
+				</div>
+				<div>
+					NRIP:
+				</div>	
+				<div>
+					092381098
+				</div>
+				<div>
+					Bag:
+				</div>	
+				<div>
+					Disinfolahta
+				</div>		
+			</div>
+		</div>
+	</div>
+</n:main>
+</div>

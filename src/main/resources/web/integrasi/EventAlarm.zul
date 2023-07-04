@@ -1,0 +1,30 @@
+<div xmlns:n="native" id="eventAlarmPanel" apply="${eventAlarmController}">
+<n:main class="eventAlarm">
+	<n:h1>Laporan Event / Alarm dari PLBN</n:h1>
+	<div style="padding-top: 10px;">
+		<div style="display: flex; gap: 10px; align-items: center;">
+			<n:h2>PLBN:</n:h2>
+			<combobox id="plbnCombobox" value="ENTIKONG" width="200px"></combobox>
+		</div>		
+	</div>
+	<div class="twoColumns">
+		<div style="padding-top: 10px;">
+			<listbox id="eventAlarmListbox" height="360px" mold="paging" pageSize="2">
+				<listhead>
+					<listheader label="Tgl.Jam Event/Alarm" width="140px"></listheader>
+					<listheader label="Gambar Kejadian" width="215px" ></listheader>
+					<listheader label="Penjelasan" width="220px"></listheader>
+				</listhead>
+				<listitem>
+					<listcell>02/12/2022 - 15:50 WIB</listcell>
+					<listcell><image src="/zkau/web/img/bakar1.png" width="173px" height="134px"></image></listcell>
+					<listcell>Terdeteksi oleh CCTV PLBN Entikong kebaran di area parkir.  Petugas berhasil memadamkan api dalam waktu 25 menit. Pellentesque et tortor eget quam volutpat pellentesque. Praesent efficitur at dolor at sagittis. Ut sem odio, consequat quis porta non, commodo faucibus lectus.</listcell>
+				</listitem>
+			</listbox>
+		</div>
+		<div class="cctvFootage">
+			<image src="/zkau/web/img/cctv-footage-blank02.png" width="495px" height="385px"></image>			
+		</div>				
+	</div>
+</n:main>
+</div>

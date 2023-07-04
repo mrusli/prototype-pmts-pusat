@@ -1,0 +1,10 @@
+<div xmlns:n="native" id="pusatOperasionalPanel" apply="${pusatOperasionalController}">
+<n:main class="pusatOperasional">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>Operasional PUSAT</n:h1>	
+	</div>
+</n:main>
+</div>

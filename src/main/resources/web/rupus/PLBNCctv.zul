@@ -1,0 +1,72 @@
+<div xmlns:n="native" id="plbnCctvPanel" apply="${plbnCctvController}">
+<n:main class="plbnCctv">
+	<div class="header">
+		<n:button class="menu-btn" onClick="openMenuClick();">
+			<n:span class="material-icons-sharp">menu</n:span>	
+		</n:button>
+		<n:h1>CCTV PLBN</n:h1>	
+	</div>
+	<div class="param">
+		<div class="param-inline">
+			<n:h3>Konfigurasi:</n:h3>
+			<combobox id="configCombobox"></combobox>			
+		</div>
+	</div>
+	<div class="config">
+		<div>
+			<image src="/zkau/web/img/plbn-entikong.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+	</div>
+	<div class="config">
+		<div>
+			<image src="/zkau/web/img/plbn-aruk.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+	</div>
+	<div class="config">
+		<div>
+			<image src="/zkau/web/img/plbn-badau.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+	</div>
+	<div class="config">
+		<div>
+			<image src="/zkau/web/img/plbn-motaain.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+		<div>
+			<image src="/zkau/web/img/cctv-plbn-footage.png"></image>
+		</div>
+	</div>			
+</n:main>
+</div>

@@ -1,0 +1,30 @@
+<div xmlns:n="native" id="pengawasan02Panel" apply="${pengawasan02Controller}">
+<n:main class="pengawasan">
+	<n:h1>Laporan Pengawasan dari PLBN</n:h1>
+	<div style="padding-top: 10px;">
+		<div style="display: flex; gap: 10px; align-items: center;">
+			<n:h2>PLBN:</n:h2>
+			<combobox id="plbnCombobox" value="ENTIKONG" width="200px"></combobox>
+		</div>		
+	</div>
+	<div class="twoColumns">
+		<div style="padding-top: 10px;">
+			<listbox id="pengawasanListbox" height="360px" mold="paging" pageSize="2">
+				<listhead>
+					<listheader label="Tgl" width="120px"></listheader>
+					<listheader label="Obyek" width="225px" ></listheader>
+					<listheader label="Penjelasan" width="220px"></listheader>
+				</listhead>
+				<listitem style="vertical-align: top;">
+					<listcell>03/02/2023 - 13:10 WIB</listcell>
+					<listcell>
+						<image src="/zkau/web/img/abandoned.png" width="195px" height="187px"></image>
+					</listcell>
+					<listcell>Tas hitam ditinggalkan pemiliknya. Sed porta orci sed rhoncus pulvinar. Cras a est neque. In condimentum urna non enim maximus, id sodales quam lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus</listcell>
+				</listitem>
+			</listbox>
+		</div>
+		
+	</div>	
+</n:main>
+</div>
